@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+p,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.resume {
+  flex: 1;
+  padding: 5px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.number {
+  font-size: 15px;
+}
+
+.email {
+  font-size: 14px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.head {
+  font-size: 23px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.objective-head {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-bottom: 1px solid;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.objective {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  margin-right: 20px;
+}
+
+.dob {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn {
+  width: 200px;
+  border: none;
+  background-color: lightseagreen;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.btn::focus {
+  border: none;
+  outline: none;
+}
